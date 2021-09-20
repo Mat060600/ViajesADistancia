@@ -1,0 +1,60 @@
+
+
+
+
+
+.parrafo-uno-servicio__titulo {
+  color: black;
+  text-align: left;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.parrafo-uno-servicio__subtitulo {
+  padding: 5px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.parrafo-uno-servicio__li {
+  padding: 5px;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.parrafo-dos-servicio__titulo {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+
+
+
+
+.menu1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.menu1 li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu1 li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.empresa-h2 {
+  padding: 5px;
+}
