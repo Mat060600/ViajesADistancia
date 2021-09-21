@@ -215,3 +215,9 @@ textarea {
 
 .empresa-h2 {
   padding: 5px; }
+
+  .empresaBody{
+    background-image: url(/imagenes/empresa.jpg);
+    background-size:  100vw;
+    background-attachment: fixed;
+  }
