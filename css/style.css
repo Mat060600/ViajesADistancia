@@ -2,57 +2,43 @@
   margin: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .homeContacto {
-  color: black;
-}
+  color: black; }
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: lightgray;
-  }
-}
+    background-color: lightgray; } }
 
 @media screen and (min-width: 1200px) {
   body {
-    background-color: lightgray;
-  }
-}
+    background-color: lightgray; } }
 
 @media screen and (min-width: 1600px) {
   body {
-    background-color: lightgray;
-  }
-}
+    background-color: lightgray; } }
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
-  }
-}
+    max-width: 540px; } }
 
 .flexContainer {
   display: flex;
   padding: 5px;
-  margin: 150px;
-}
+  margin: 150px; }
 
 .card {
-  margin: 20px;
-}
+  margin: 20px; }
 
 .container {
   margin: auto;
   background-color: #8d2f2f;
   width: 2500px;
-  padding: 50px;
-}
+  padding: 50px; }
 
 .cancelacion__p {
-  font-size: x-large;
-}
+  font-size: x-large; }
 
 .cancelacion__boton {
   font-size: 16px;
@@ -73,8 +59,7 @@
   text-transform: uppercase;
   transition: 0.5s;
   white-space: nowrap;
-  background-color: brown;
-}
+  background-color: brown; }
 
 .header {
   background-color: #626a75;
@@ -82,52 +67,44 @@
   position: relative;
   width: 100%;
   top: 0;
-  left: 0;
-}
+  left: 0; }
 
 .nav {
   display: flex;
   justify-content: space-between;
   max-width: 992px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .nav-link {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .logo {
   font-size: 30px;
   font-weight: bold;
   padding: 0 40px;
-  line-height: 80px;
-}
+  line-height: 80px; }
 
 .nav-menu {
   display: flex;
   margin-right: 40px;
-  list-style: none;
-}
+  list-style: none; }
 
 .nav-menu-item {
   font-size: 18px;
   margin: 0 10px;
   line-height: 80px;
   text-transform: uppercase;
-  width: max-content;
-}
+  width: max-content; }
 
 .nav-menu-link {
   padding: 8px 12px;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
   background-color: #2b92db;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .nav-toggle {
   color: white;
@@ -137,15 +114,16 @@
   padding: 0 20px;
   line-height: 60px;
   cursor: pointer;
-  display: none;
-}
+  display: none; }
+
+.logo-header {
+  width: 200px; }
 
 .bodyform {
   background-image: url(/imagenes/puente.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  margin: 0%;
-}
+  margin: 0%; }
 
 .formulario {
   width: 650px;
@@ -155,16 +133,14 @@
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   box-sizing: border-box;
-  display: grid;
-}
+  display: grid; }
 
 .formulario__titulo {
   color: white;
   text-align: center;
   margin: 0%;
   font-size: 30px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 .formulario__input {
   width: 100%;
@@ -173,8 +149,7 @@
   box-sizing: border-box;
   font-size: 15px;
   border: none;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .formulario__textarea {
   width: 100%;
@@ -182,69 +157,58 @@
   margin-bottom: 5px;
   box-sizing: border-box;
   font-size: 15px;
-  border: none;
-}
+  border: none; }
 
 textarea {
   min-height: 100px;
   max-height: 200px;
-  max-width: 600px;
-}
+  max-width: 600px; }
 
 .formulario__boton {
   background: #1b4669;
   color: white;
-  padding: 18px;
-}
+  padding: 18px; }
 
 .formulario__boton:hover {
   cursor: pointer;
   background-color: #d3d0b1;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .empresaBody {
   background-image: url(/imagenes/empresa.jpg);
   background-size: 100vw 100vh;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
 
 .parrafo-uno-servicio__titulo {
   color: black;
   text-align: left;
   flex-direction: row;
-  margin: 15px;
-}
+  margin: 15px; }
 
 .parrafo-uno-servicio__subtitulo {
   padding: 5px;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .parrafo-uno-servicio__li {
   padding: 5px;
   font-family: sans-serif;
   list-style: none;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .parrafo-dos-servicio__titulo {
   margin: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-}
+  font-size: medium; }
 
 .menu1 {
   text-align: center;
-  margin: 20px;
-}
+  margin: 20px; }
 
 .menu1 li {
   display: inline-block;
-  text-align: center;
-}
+  text-align: center; }
 
 .menu1 li a {
   display: inline-block;
@@ -255,9 +219,67 @@ textarea {
   width: 40px;
   height: 40px;
   font-size: 20px;
-  border-radius: 100%;
-}
+  border-radius: 100%; }
 
 .empresa-h2 {
-  padding: 5px;
-}
+  padding: 5px; }
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(/imagenes/footer-image.jpg);
+  background-size: cover; }
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px; }
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px; }
+
+.box__footer .logo img {
+  width: 180px; }
+
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px; }
+
+.box__footer h2 {
+  margin-bottom: 30px;
+  color: #1313e2;
+  font-weight: 700; }
+
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600; }
+
+.box__footer a:hover {
+  opacity: 0.8; }
+
+.box__footer a .fab {
+  font-size: 20px; }
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px; }
+
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a; }
+
+.box__copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #000000; }
