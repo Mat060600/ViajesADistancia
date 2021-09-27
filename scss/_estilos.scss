@@ -11,40 +11,24 @@
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: lightgray;
+    background-color: lightblue;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body {
-    background-color: lightgray;
+    background-color: lightblue;
   }
 }
 @media screen and (min-width: 1600px) {
   body {
-    background-color: lightgray;
+    background-color: white;
   }
 }
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
-}
-
-.flexContainer {
-  display: flex;
-  padding: 5px;
-  margin: 150px;
-}
-.card {
-  margin: 20px;
-}
-
-.container {
-  margin: auto;
-  background-color: rgb(141, 47, 47);
-  width: 2500px;
-  padding: 50px;
 }
 
 .cancelacion__p {
@@ -71,3 +55,5 @@
   white-space: nowrap;
   background-color: brown;
 }
+
+
