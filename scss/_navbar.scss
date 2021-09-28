@@ -1,5 +1,5 @@
 .header {
-  background-color: #626a75;
+  background-color: #ffffff;
   height: 80px;
   position: relative;
   width: 100%;
@@ -10,15 +10,15 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  max-width: 992px;
+  max-width: 1200px;
   margin: 0 auto;
+  height: 70px;
 }
 
 .nav-link {
-  color: white;
+  color: rgb(202, 111, 111);
   text-decoration: none;
 }
-
 
 .nav-menu {
   display: flex;
@@ -41,7 +41,7 @@
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #2b92db;
+  background-color: #3e366b80;
   transition: 0.5s;
 }
 
@@ -56,3 +56,10 @@
   display: none;
 }
 
+.logo-nav {
+  padding: 18px;
+  font-size: x-large;
+  font-family: "Oleo Script", cursive;
+  font-family: "Rock Salt", cursive;
+  color: blue;
+}
