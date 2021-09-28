@@ -66,12 +66,6 @@
   color: white;
   text-decoration: none; }
 
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 0 40px;
-  line-height: 80px; }
-
 .nav-menu {
   display: flex;
   margin-right: 40px;
@@ -102,9 +96,6 @@
   line-height: 60px;
   cursor: pointer;
   display: none; }
-
-.logo-header {
-  width: 200px; }
 
 .bodyform {
   background-image: url(/imagenes/puente.jpg);
@@ -274,7 +265,8 @@ footer {
   height: 1px;
   background-color: #000000; }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0; }
 
@@ -284,7 +276,7 @@ html, body {
   font-family: sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.6;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .container {
   width: 100%;
@@ -329,3 +321,6 @@ html, body {
 .titulo-container {
   text-align: center;
   padding: 15px; }
+
+.body-servicio {
+  background-image: url(/imagenes/background.jpg); }
