@@ -47,8 +47,23 @@
   white-space: nowrap;
   background-color: brown; }
 
+.titulo-cards {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Oleo Script", cursive;
+  font-family: "Rock Salt", cursive;
+  color: blue; }
+
+.container-background {
+  width: 1920px;
+  height: 900px;
+  background-image: url(/imagenes/banner-index2.jpg);
+  text-align: center;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: oldlace; }
+
 .header {
-  background-color: #ffffff;
   height: 80px;
   position: relative;
   width: 100%;
@@ -63,7 +78,7 @@
   height: 70px; }
 
 .nav-link {
-  color: #ca6f6f;
+  color: rgba(255, 255, 255, 0.918);
   text-decoration: none; }
 
 .nav-menu {
@@ -80,7 +95,7 @@
 
 .nav-menu-link {
   padding: 8px 12px;
-  border-radius: 3px; }
+  border-radius: 5px; }
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
@@ -188,6 +203,21 @@ h2 {
 
 li {
   list-style-type: none; }
+
+.container-background-empresa {
+  width: 1920px;
+  height: 900px;
+  background-image: url(/imagenes/empresa-banner.jpg);
+  text-align: center;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: oldlace; }
+
+.h2-footer {
+  margin-bottom: 30px;
+  color: blue;
+  font-weight: 700;
+  font-size: x-large; }
 
 footer {
   width: 100%;
@@ -304,5 +334,20 @@ body {
   text-align: center;
   padding: 15px; }
 
-.body-servicio {
-  background-image: url(/imagenes/background.jpg); }
+.container-background-servicio {
+  width: 1920px;
+  height: 900px;
+  background-image: url(/imagenes/servicio-banner.jpg);
+  text-align: center;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: oldlace; }
+
+.container-background-ofertas {
+  width: 1920px;
+  height: 900px;
+  background-image: url(/imagenes/banner-ofertas.jpg);
+  text-align: center;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: oldlace; }

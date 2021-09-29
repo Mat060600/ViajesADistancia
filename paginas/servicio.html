@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <link href="https://allfont.es/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Rock+Salt&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,61 +14,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/2b82f2dff7.js" crossorigin="anonymous"></script>
-        <!--Fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Rock+Salt&display=swap">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 
 <body class="body-servicio">
 
-    <header class="header">
-        <nav class="nav">
-            <p class="logo-nav">Viajes a Distancia</p>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a href="/index.html" class="nav-menu-link nav-link">Home</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="/paginas/empresa.html" class="nav-menu-link nav-link">Empresa</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="/paginas/ofertas.html" class="nav-menu-link nav-link">Ofertas</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="/paginas/contacto.html" class="nav-menu-link nav-link">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/imagenes/Fondo-1.jpg" class="d-block w-100" alt="banner1">
-            </div>
-            <div class="carousel-item">
-                <img src="/imagenes/Fondo-2.jpg" class="d-block w-100" alt="banner2">
-            </div>
-            <div class="carousel-item">
-                <img src="/imagenes/fondo-3.jpg" class="d-block w-100" alt="banner3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+    <div class="container-background-servicio">
+
+        <header class="header">
+            <nav class="nav">
+                <p class="logo-nav">Viajes a Distancia</p>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="/index.html" class="nav-menu-link nav-link">Home</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/paginas/empresa.html" class="nav-menu-link nav-link">Empresa</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/paginas/ofertas.html" class="nav-menu-link nav-link">Ofertas</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/paginas/contacto.html" class="nav-menu-link nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
     </div>
 
 
@@ -79,7 +62,7 @@
                 </div>
             </div>
             <div class="box__footer">
-                <h2>Mapa del sitio</h2>
+                <h2 class="h2-footer">Mapa del sitio</h2>
                 <a href="paginas/contacto.html">Contacto</a>
                 <a href="paginas/empresa.html">Empresa</a>
                 <a href="paginas/ofertas.html">Ofertas</a>
@@ -87,7 +70,7 @@
             </div>
 
             <div class="box__footer">
-                <h2>Compañia</h2>
+                <h2 class="h2-footer">Compañia</h2>
                 <a href="paginas/empresa.html">Acerca de</a>
                 <a href="#">Trabajos</a>
                 <a href="#">Procesos</a>
@@ -95,7 +78,7 @@
             </div>
 
             <div class="box__footer">
-                <h2>Redes Sociales</h2>
+                <h2 class="h2-footer">Redes Sociales</h2>
                 <a target="blank" href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i>
                     Facebook</a>
                 <a target="blank" href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i>
