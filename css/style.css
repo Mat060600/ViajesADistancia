@@ -374,9 +374,14 @@ body {
   color: blueviolet; }
 
 .boton-ofertas {
-  margin: 25px; }
+  margin: 15px; }
 
 .boton-ofertas:hover {
   transition: 1s;
   color: rgba(255, 255, 255, 0.918);
   background-color: lightblue; }
+
+.card-text {
+  font-family: "Oswald", sans-serif;
+  padding: 3px;
+  margin-top: 5px; }
