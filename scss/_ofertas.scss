@@ -1,7 +1,9 @@
 .container-background-ofertas {
-  width: 1920px;
   height: 900px;
   background-image: url(../imagenes/banner-ofertas.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-size: x-large;
   font-family: "Oswald", sans-serif;
@@ -32,6 +34,8 @@
 
 .boton-ofertas {
   margin: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .boton-ofertas:hover {
@@ -40,7 +44,7 @@
   background-color: lightblue;
 }
 
-.card-text{
+.card-text {
   font-family: "Oswald", sans-serif;
   padding: 3px;
   margin-top: 5px;

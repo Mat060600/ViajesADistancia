@@ -33,9 +33,11 @@ li {
 }
 
 .container-background-empresa {
-  width: 1920px;
   height: 900px;
   background-image: url(../imagenes/empresa-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-size: x-large;
   font-family: "Oswald", sans-serif;

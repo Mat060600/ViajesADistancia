@@ -31,6 +31,10 @@
   }
 }
 
+.cancelacion {
+  padding: 6%;
+}
+
 .cancelacion__p {
   font-size: x-large;
 }
@@ -64,9 +68,11 @@
 }
 
 .container-background {
-  width: 1920px;
   height: 900px;
   background-image: url(../imagenes/banner-index2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-size: x-large;
   font-family: "Oswald", sans-serif;

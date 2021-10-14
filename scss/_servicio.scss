@@ -1,7 +1,9 @@
 .container-background-servicio {
-  width: 1920px;
   height: 900px;
   background-image: url(../imagenes/servicio-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-size: x-large;
   font-family: "Oswald", sans-serif;
@@ -9,9 +11,9 @@
 }
 
 .h2-servicio {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 12mm;
-  color: #20140C;
+  color: #20140c;
   text-align: center;
   margin-top: 20px;
 }
@@ -21,4 +23,17 @@
   margin-top: 50px;
   margin-left: 500px;
   margin-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-indicators img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .slide-s {
+    width: 100%;
+  }
 }
